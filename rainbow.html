@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="rainbow.css">-->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        .disp{
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        .heading{
+            background:url('images/photo-1580566176138-daa588058b59.png');
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: text 7s ease-in-out infinite;
+        
+        }
+        @keyframes text {
+            from { background-position: 0% 50%;}
+            to { background-position: 100% 100%;}
+            
+        }
+        h1{
+            font-weight: bolder;
+            font-size: 6vw;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 3px  black;
+        
+        }
+        .rainbow{
+            overflow: hidden;
+            height:350px;
+            width: 700px;
+        }
+        .main{
+            height:700px;
+            width:700px;
+            background-color: red;
+        }
+        .main1{
+            height:600px;
+            width:600px;
+            background-color: orange;
+        }
+        .main2{
+            height: 500px;
+            width: 500px;
+            background-color: yellow;
+        }
+        .main3{
+            height:400px;
+            width: 400px;
+            background-color: green;
+        }
+        .main4{
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+        }
+        .main5{
+            height:200px;
+            width: 200px;
+            background-color: indigo;
+        }
+        .main6{
+            height: 100px;
+            width: 100px;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body class="disp" style="border: none">
+    <div class="heading">
+        <h1>Mad Rainbow</h1>
+    </div>
+    <div class="rainbow">
+        <div class="main disp">
+            <div class="main1 disp">
+                <div class="main2 disp">
+                    <div class="main3 disp">
+                        <div class="main4 disp">
+                            <div class="main5 disp">
+                                <div class="main6 disp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
